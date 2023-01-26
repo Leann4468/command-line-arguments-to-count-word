@@ -25,6 +25,18 @@ Use len() to find the total words.
 Run the program to determine the number of words in the file created 
 
 ## PROGRAM:
+```python
+Program to sort the elements in the list using the Selection Sort algorithm.
+Developed by: Leann
+RegisterNumber: 22004468
+import sys
+count = 0
+with open(sys.argv[1],'r')as f1:
+    for line in f1:
+        word = line.split()
+        count += len(word)
+print("word count in file = ",count)
+```
 
 ### OUTPUT:
 ![output](input.png)
